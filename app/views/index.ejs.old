@@ -4,6 +4,6 @@
   <title>Welcome</title>
 </head>
 <body>
-  <h1>bem vindo ao teste <%=name %></h1>
+  <h1>bem vindo ao teste <%=nome %></h1>
 </body>
 </html>

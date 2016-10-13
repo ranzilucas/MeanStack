@@ -1,0 +1,8 @@
+module.exports = function(){
+  var controller = {};
+
+  controller.teste = function(req, res){
+    console.log("teste")
+  };
+  return controller;
+}
