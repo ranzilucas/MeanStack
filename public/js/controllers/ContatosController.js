@@ -23,6 +23,7 @@ angular.module('contatooh').controller('ContatosController',
     function findAll(){
       Contato.query(function(contatos){
         $scope.contatos = contatos;
+        console.log(contatos);
         $scope.mensagem = {};
       }, error);
     }
